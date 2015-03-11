@@ -5,7 +5,7 @@ Use namespaces with NodeJS.
 ## Usage
 On your app, add the namespaces:
 ```js
-var ns   = require('nsjs');
+var ns = require('nsjs');
 
 ns.configure({
     dir: __dirname
