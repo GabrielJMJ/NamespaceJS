@@ -1,0 +1,24 @@
+{
+    "name": "namespacejs",
+    "version": "0.1",
+    "description": "Use namespaces on NodeJS",
+    "keywords": [
+        "namespace",
+        "namespaces"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/GabrielJMJ/namespacejs.git"
+    },
+    "author": {
+        "name": "Gabriel Jacinto",
+        "email": "gamjj74@hotmail.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "main": "./src"
+}
