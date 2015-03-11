@@ -16,7 +16,7 @@ ns.add('Blog\\', 'modules/blog/');
 ```
 and in every file your can use like this:
 ```js
-var ns = require('namespacejs')
+var ns = require('nsjs')
   , usersController = ns.use('MyApplication\\Controller\\Users');
 ```
 instead
