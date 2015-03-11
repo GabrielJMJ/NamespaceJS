@@ -12,7 +12,7 @@ ns.add('MyApplication\\', 'modules/application');
 and in every file your can use like this:
 ```js
 var ns = require('namespacejs')
-  , usersController = ns.use('MyApplication\\Controller\\User');
+  , usersController = ns.use('MyApplication\\Controller\\Users');
 ```
 instead
 ```js
