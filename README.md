@@ -7,7 +7,8 @@ On your app, add the namespaces:
 ```js
 var ns = require('namespacejs');
 
-ns.add('MyApplication\\', 'modules/application');
+ns.add('MyApplication\\', 'modules/application/');
+ns.add('Blog\\', 'modules/blog/');
 ```
 and in every file your can use like this:
 ```js
