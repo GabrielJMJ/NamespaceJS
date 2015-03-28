@@ -21,7 +21,7 @@ namespace.prototype.configure = function (config) {
     }
 
     this.dir = config.dir;
-}
+};
 
 /**
  * Adds some namespace
@@ -32,7 +32,7 @@ namespace.prototype.configure = function (config) {
 namespace.prototype.add = function (namespace, path) {
     this._verifyConfigs();
     this.namespaces.push({namespace: namespace, path: path});
-}
+};
 
 /**
  * Requires some module based on a namespace
@@ -62,17 +62,17 @@ namespace.prototype.use = function (module) {
     }
 
     throw (module + ' is not a valid module.');
-}
+};
 
 namespace.prototype._verifyConfigs = function () {
-    if (typeof this.dir == undefined) {
+    if (typeof this.dir === undefined) {
         throw('Directory not defined on configurations');
     }
-}
+};
 
 namespace.prototype._clean = function () {
     this.namespaces = [];
-}
+};
 
 namespace.instance = null;
 
@@ -82,11 +82,11 @@ namespace.instance = null;
  * @return namespace
  */
 namespace.getInstance = function () {
-    if (this.instance == null) {
-        this.instance = new namespace;
+    if (this.instance === null) {
+        this.instance = new namespace();
     }
 
     return this.instance;
-}
+};
 
 module.exports = namespace.getInstance();
