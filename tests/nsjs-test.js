@@ -29,4 +29,4 @@ module.exports = {
         test.equal(appTxt, 'this is a controller');
         test.done();
     }
-}
+};
