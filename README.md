@@ -1,5 +1,7 @@
 nsjs
 ===========
+![](https://img.shields.io/npm/v/nsjs.svg) ![](https://img.shields.io/npm/dm/nsjs.svg)
+
 Use namespaces with NodeJS.
 
 ## Usage
